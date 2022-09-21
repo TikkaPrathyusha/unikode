@@ -1,0 +1,184 @@
+#Sum and Difference
+
+a=int(input())
+b=int(input())
+c=a+b
+d=a-b
+print(c,d)
+
+#Product and Division
+
+a=int(input())
+b=int(input())
+c=a*b
+d=a//b
+e=a%b
+print(c)
+print(d)
+
+#Swapping of two numbers
+
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+#Swapping without third variable
+
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+#Average Calculation
+
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+print((a+b+c+d+e)/5)
+
+#Alice in Wonderland
+
+a=int(input())
+b=a//10
+c=a%10
+print(b+c)
+
+#Area Calculation
+
+a=int(input())
+l=int(input())
+b=int(input())
+c=float(input())
+print(a*a)
+print(l*b)
+print("%.2f" %(3.14*c*c))
+
+#Fencing the ground
+
+a=int(input())
+b=int(input())
+print("required length is",2*(a+b),"m")
+print("required quantity of carpet is",a*b,"sqm")
+
+#Power of a Number
+
+x=int(input())
+n=int(input())
+print(pow(x,n))
+
+#Simple Interest
+
+p=int(input())
+t=int(input())
+r=float(input())
+print((p*t*r)/100)
+
+#Splitting into Teams
+
+a=int(input())
+b=int(input())
+c=a//b
+d=a%b
+print("The number of students in each team is",c,"and left out is",d)
+
+#Three Idiots
+
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+x=(x1+x2)/2
+y=(y1+y2)/2
+print("Binoy's house is located at",(x,y))
+
+#Greatest of two numbers
+
+a=int(input())
+b=int(input())
+if a==b:
+    print(f"{a} is equal to {b}")
+elif a>b:
+    print(f"{a} is greater than {b}") 
+else:
+    print(f"{a} is less than {b}")
+ 
+ #Vowel Or Consonants
+ 
+ a=input()
+vowels="aeiouAEIOU"
+if a>='a' and a<='z' or a>='A' and a<='Z':
+    if a in vowels:
+        print("vowel")
+    else:
+        print("consonant")
+else:
+    print("not an alphabet")
+    
+#Grading System
+
+a=int(input())
+if a==100:
+    print("S")
+elif a<=100 and a>=90:
+    print("A")
+elif a<=90 and a>=80:
+    print("B")
+elif a<=80 and a>=70:
+    print("C")
+elif a<=60 and a>=60:
+    print("D")
+elif a<=60 and a>=50:
+    print("E")
+elif a<=50:
+    print("F")
+else:
+    print("Invalid Input")
+    
+#Profit or Loss
+
+x=float(input("Enter the price of a dozen mangoes\n"))
+y=float(input("Enter the price at which 1 mango is being sold\n"))
+z=(y*12)-x
+if z==0:
+    print("No profit nor loss")
+elif z>0:
+    p=("%.2f" %((12*y)-x))
+    print(f'profit : Rs.{p}')
+else:
+    l=("%.2f" %(x-(12*y)))
+    print(f'loss : Rs.{l}')
+    
+#Fee Collection
+
+a=str(input("Enter the student type\n"))
+if a=="MSDS":
+    TF=float(input("Enter tuition fee\n"))
+    BF=float(input("Enter bus fee\n"))
+    p=("%.2f" %(TF+BF))
+    print('The fees to be paid by the student is Rs.',p)
+elif a=="MSH":
+    TF=float(input("Enter tuition fee\n"))
+    HF=float(input("Enter hostel fee\n"))
+    l=("%.2f" %(TF+HF))
+    print('The fees to be paid by the student is Rs.',l)
+elif a=="MGSDS":
+    TF=float(input("Enter tuition fee\n"))
+    BF=float(input("Enter bus fee\n"))
+    h=("%.2f" %((1.5*TF)+BF))
+    print('The fees to be paid by the student is Rs.',h)
+elif a=="MGSH":
+    TF=float(input("Enter tuition fee\n"))
+    HF=float(input("Enter hostel fee\n"))
+    g=("%.2f" %((1.5*TF)+HF))
+    print('The fees to be paid by the student is Rs.',g)
+    
+#
+
+
